@@ -10,12 +10,12 @@ const Footer = () => {
             <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: 'var(--green-mid)' }}>
               <Leaf className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-black text-white">CropSense AI</span>
+            <span className="text-2xl font-black text-white">AI Crop Disease Detector & Farm Advisor</span>
           </div>
           
           <div className="text-center text-gray-400">
             <p className="text-sm">
-              Built with 🌱 by the CropSense AI Team · FOAI Group Project
+              Built with 🌱 by the NeuralFlare Team · FOAI Group Project
             </p>
             <p className="text-xs mt-2">
               Model: MobileNetV2 · Advisory: Groq AI · Accuracy: 95.41%
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           
           <a 
-            href="https://github.com/rwitankar-byte/Demo" 
+            href="https://github.com/rwitankar-byte/Crop_disease_detector" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
